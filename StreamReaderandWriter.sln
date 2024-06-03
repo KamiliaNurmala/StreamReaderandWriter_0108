@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iosFileWithPath", "iosFileW
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exception", "Exception\Exception.vcxproj", "{AB1789F6-F66C-4E12-B52A-8B3A2ADAF6A4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ManualException", "ManualException\ManualException.vcxproj", "{07E71080-3B89-4A1F-924F-823F40F5491E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{AB1789F6-F66C-4E12-B52A-8B3A2ADAF6A4}.Release|x64.Build.0 = Release|x64
 		{AB1789F6-F66C-4E12-B52A-8B3A2ADAF6A4}.Release|x86.ActiveCfg = Release|Win32
 		{AB1789F6-F66C-4E12-B52A-8B3A2ADAF6A4}.Release|x86.Build.0 = Release|Win32
+		{07E71080-3B89-4A1F-924F-823F40F5491E}.Debug|x64.ActiveCfg = Debug|x64
+		{07E71080-3B89-4A1F-924F-823F40F5491E}.Debug|x64.Build.0 = Debug|x64
+		{07E71080-3B89-4A1F-924F-823F40F5491E}.Debug|x86.ActiveCfg = Debug|Win32
+		{07E71080-3B89-4A1F-924F-823F40F5491E}.Debug|x86.Build.0 = Debug|Win32
+		{07E71080-3B89-4A1F-924F-823F40F5491E}.Release|x64.ActiveCfg = Release|x64
+		{07E71080-3B89-4A1F-924F-823F40F5491E}.Release|x64.Build.0 = Release|x64
+		{07E71080-3B89-4A1F-924F-823F40F5491E}.Release|x86.ActiveCfg = Release|Win32
+		{07E71080-3B89-4A1F-924F-823F40F5491E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
