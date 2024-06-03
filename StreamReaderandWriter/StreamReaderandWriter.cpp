@@ -25,5 +25,7 @@ int main() {
 	outfile.close();
 
 	// membuka dile dalam mode membaca
-	ifstream file;
+	ifstream infile;
+	// menunjuk ke sebuah file
+	infile.open("contohfile.txt");
 }
