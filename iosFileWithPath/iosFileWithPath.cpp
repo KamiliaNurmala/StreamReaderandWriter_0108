@@ -5,11 +5,14 @@ using namespace std;
 
 int main() {
 	string baris;
-	string namaFile;
+	string NamaFile;
 
 	cout << "Masukan Nama File : ";
-	cin >> namaFile;
+	cin >> NamaFile;
 
 	// membuka file dalam mode nulis
 	ofstream outfile;
+
+	// menunjuk ke sebuah nama file
+	outfile.open(NamaFile + ".txt", ios::out);
 }
